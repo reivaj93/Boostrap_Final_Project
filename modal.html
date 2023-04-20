@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <title>Modal</title>
+</head>
+<body>
+    
+   
+        <section style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin-top: 3rem;">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Try my modal here
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title goes here</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    Here goes an important message about something that need your attention
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary">
+                            <a href="./index.html" class="text-decoration-none btn btn-dark">Bye Bye</a>
+                        </button>
+                        <button type="button" class="btn btn-primary">Keep going?</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container">
+            <section id="my-element" class="p-5 shadow mt-5 bg-light">
+                <h1 class="text-center">Function of Modal</h1>
+                <p class="text-center">The functionality of modal is to allow the user with a text box to check again certain elements.</p>
+            </section>
+        </section>
+        
+
+    <section>
+        <button class="btn btn-light mt-5 ms-5 mx-auto" style="width:200px;" >
+            <a href="./index.html" class="text-decoration-none">Go Back</a>
+        </button>
+    </section>
+</body>
+<script src="../../bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+</html>
